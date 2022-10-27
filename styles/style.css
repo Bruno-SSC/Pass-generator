@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+main {
+  background-color: #18181b;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .logo {
+  height: 10vh;
+  width: 80%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+main .logo > img {
+  height: 100%;
+  object-fit: fill;
+}
+
+main .input-cont {
+  width: 55%;
+  margin-top: 30px;
+}
+
+main .input-cont span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+main .input-cont .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  height: 18px;
+  outline: none;
+  margin-top: 8px;
+}
+
+main .input-cont button {
+  height: 40px;
+  background-color: #3eb72b;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main .passsword-cont {
+  width: 55%;
+  margin: 14px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+main .passsword-cont .title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+main .passsword-cont .password {
+  height: 60px;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #313131;
+  transition: transform 0.5s;
+}
+
+main .passsword-cont .password:hover {
+  transform: scale(1.05);
+}
+
+main .passsword-cont .tooltip {
+  color: #fff;
+  position: relative;
+  top: 20px;
+  padding: 6px 8px;
+  background: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+main .passsword-cont:hover .tooltip {
+  visibility: visible;
+  bottom: 50px;
+  opacity: 1;
+}
+
+main .hide {
+  display: none;
+}

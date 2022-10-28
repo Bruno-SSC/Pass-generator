@@ -4,17 +4,21 @@
 
 Sem ideias para a senha daquela rede social nova? apenas escolha um tamanho e consiga uma novinha!
 
+>[Acessar](https://key-gen.netlify.app)
+
 O link para o tutorial com mais detalhes: [Youtube](https://youtu.be/i6t2jaRxos4)
 
-<h2 align="left"> Objetivos 📌 </h2>
+<h2 align="left"> Objetivo 📌 </h2>
 
 - Melhorar skills em javascript
 
 ---
 
-<h3 align="center"> showcase 📝 </h3>
+<h3 align="center"> Home 📷 </h3>
 
-<div height="590em"><img src="showcase.png"></div>
+<div align="center">
+<img height="300em" src="styles/assets/showcase.png"></div>
+</div>
 
 <h3 align="center"> Tecnologias utilizadas 🤖 </h3>
 

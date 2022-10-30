@@ -16,7 +16,6 @@ sliderElement.oninput = function () {
 
 function generatePass() {
     let containerPassword = document.querySelector("#container-password")
-    console.log(containerPassword)
     let pass = ""
     for (let i = 0, n = charset.length; i < sliderElement.value; ++i) {
         pass += charset.charAt(Math.floor(Math.random() * n))
@@ -27,6 +26,7 @@ function generatePass() {
 }
 
 function copyPass() {
-    alert("senha copiada com sucesso")
-    navigator.clipboard.writeText(novaSenha)
+    navigator.clipboard.writeText(novaSenha).then(() => { alert("senha copiada com sucesso") }).catch(() => {
+        alert("something went wrong")
+    });
 }
